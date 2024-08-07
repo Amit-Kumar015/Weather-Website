@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {  
+    height: 100vh;
+    background-image: url("./images/bg.png");  
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+}
+
+/* .h-primary{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: "Bree Serif", serif;
+}
+
+.h-secondary{
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: "Bree Serif", serif;
+} */
+
+.desp{
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.value{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.box{
+    padding-top: 5px;
+    font-size: 1rem;
+    background-color: rgb(94, 93, 93);
+    color: white;
+    border: 2px solid white;
+    border-radius: 11px;
+    flex-basis: 25%;
+    margin: 23px 23px;
+    line-height: 1.8;
+    min-height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#navbar{
+    margin-top: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#head{
+    display: flex;
+}
+
+#head-name{
+    font-family: "Playwrite AR", cursive;
+    font-size: 13px;
+    padding-top: 9px;
+    font-weight: 700;
+}
+
+#head img{
+    height: 60px;
+    padding: 6px 15px
+}
+
+#search-box{
+    display: flex;
+    align-items: center;
+}
+
+#search-box img{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 2px 3px;
+}
+
+#search-box input{
+    width: 20rem;
+    font-size: 1.1rem;
+    padding: 4px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-style: none;
+    outline: none;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+#weather{
+    width: 53vw;
+    border: 2px solid white;
+    border-radius: 11px;
+}
+
+.content{
+    padding: 13px 0px 13px 25px;
+}
+
+#city{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: "Bree Serif", serif;
+    padding-bottom: 7px;
+}
+
+#temp{
+    font-size: 2rem;
+}
+
+#weather-details{
+    width: 53vw;
+    margin-top: 4rem;
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: "Bree Serif", serif;
+    margin-left: 25px;
+}
+
+#details{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    margin-top: 1.5rem;
+    border-radius: 11px;
+}
+

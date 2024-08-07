@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="head">
+            <img src="./images/logo_wmo.png" alt="">
+            <div id="head-name">
+                World 
+                <br>
+                Weather
+            </div>
+        </div>
+
+        <div id="search-box">
+            <input id="search" type="text" placeholder="Search by city">
+            <img id="submit" src="./images/search.svg" alt="">
+        </div>
+    </nav>
+
+    <section id="main">
+        <div id="weather">
+            <div class="content">
+                <div id="city">New York</div>
+                <span id="temp">34</span>
+            </div>
+        </div>
+
+        <div id="weather-details">
+            <div class="heading">Weather details</div>
+            <div id="details">
+                <div class="feels box">
+                    <div class="desp">Feels like</div>
+                    <div id="feels" class="value">34<span>&#8451;</span></div>
+                </div>
+                <div class="wind-sp box">
+                    <div class="desp">Wind speed</div>
+                    <div id="wind_sp" class="value">12 km/hr</div>
+                </div>
+                <div class="wind-dir box">
+                    <div class="desp">Wind direction</div>
+                    <div id="wind_dr" class="value">SW</div>
+                </div>
+                <div class="humidity box">
+                    <div class="desp">Humidity</div>
+                    <div id="humidity" class="value">12%</div>
+                </div>
+                <div class="uv box">
+                    <div class="desp">UV</div>
+                    <div id="uv" class="value">0</div>
+                </div>
+                <div class="visibility box">
+                    <div class="desp">Visibility</div>
+                    <div id="visibility" class="value">2 km</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
